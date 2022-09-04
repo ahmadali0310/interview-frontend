@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Interview Page</title>
+  </head>
+  <body>
+    <!-- Upper Message Start -->
+    <div class="upper-msg">
+      <p>
+        <span>Limited Time Offer:</span> Shop online and get free no-contact
+        delivery
+      </p>
+    </div>
+    <!-- Upper Message End -->
+
+    <!-- Header Start -->
+    <div class="header">
+      <div class="logo">
+        <img src="./interview assets/logo.png" alt="" srcset="" />
+      </div>
+      <ul class="header_links_container">
+        <li class="header_links"><a href="#">HOME</a></li>
+        <li class="header_links"><a href="#">ABOUT US</a></li>
+        <li class="header_links arrow"><a href="#">DOOR</a></li>
+        <li class="header_links arrow"><a href="#">WINDOWS</a></li>
+        <li class="header_links"><a href="#">CONTACT US</a></li>
+      </ul>
+      <div class="search_cart">
+        <div class="search">
+          <img src="./interview assets/search-1 (1) 1.png" alt="" />
+        </div>
+        <div class="cart">
+          <img src="./interview assets/cart-alt 1.png" alt="" srcset="" />
+          <p class="count">0</p>
+        </div>
+      </div>
+    </div>
+    <!-- Header End -->
+    <!-- Hero Start -->
+    <div class="hero">
+      <div class="left-side">
+        <div class="greeting">
+          <h1>Welcome Back</h1>
+          <div class="line"></div>
+        </div>
+
+        <div class="form">
+          <form>
+            <div class="form-group">
+              <i class="fa-regular fa-envelope"></i>
+              <input type="email" placeholder="Enter your email address" />
+            </div>
+            <div class="form-group">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Enter your password" />
+            </div>
+            <div class="form-group remember">
+              <div class="remember-me">
+                <input type="checkbox" name="" id="" />
+                <label for="">Remember Me</label>
+              </div>
+              <div class="forgot">
+                <a href="#">Forgot Password?</a>
+              </div>
+            </div>
+            <div class="form-group btn-wraper">
+              <button class="btn btn-login" type="submit">Login</button>
+            </div>
+          </form>
+          <p class="divider">or</p>
+          <div class="social-login">
+            <button class="social-login-btn">
+              <img src="./interview assets/Path.png" alt="" srcset="" />
+              <span>FaceBook</span>
+            </button>
+            <button class="social-login-btn">
+              <img src="./interview assets/Google icon.png" alt="" srcset="" />
+              <span>Google</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="hero-img">
+          <img src="./interview assets/image 4.png" alt="" srcset="" />
+        </div>
+        <div class="plant">
+          <img src="./interview assets/image 7.png" alt="" srcset="" />
+        </div>
+      </div>
+    </div>
+    <!-- Hero End -->
+    <!-- Footer Start -->
+    <div class="footer">
+      <div class="footer-logo">
+        <img src="./interview assets/image 11.png" alt="" srcset="" />
+      </div>
+      <div class="footer-links">
+        <div class="address">
+          <div class="round">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <span>1234 Street Name, City Name, United States</span>
+        </div>
+        <div class="email">
+          <div class="round">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <span>ahamad@khybercoded.pk</span>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Lower Start -->
+    <div class="lower">
+      <div class="copy">
+        <p>
+          &copy;
+          <span id="yearFooter"></span>
+          All Rights Reserved
+        </p>
+      </div>
+      <div class="social-links">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    <!-- Lower End -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/fontawesome.min.js"
+      integrity="sha512-j3gF1rYV2kvAKJ0Jo5CdgLgSYS7QYmBVVUjduXdoeBkc4NFV4aSRTi+Rodkiy9ht7ZYEwF+s09S43Z1Y+ujUkA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      let d = new Date();
+      document.getElementById("yearFooter").innerHTML = d.getFullYear();
+    </script>
+  </body>
+</html>
